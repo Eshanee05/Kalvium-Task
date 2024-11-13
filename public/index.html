@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real-Time PDF Co-Viewer</title>
+    <script src="/socket.io/socket.io.js"></script>  <!-- Socket.IO client -->
+    <script src="PDF.js"></script>                    <!-- PDF.js library -->
+    <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.4.456/pdf.min.js">
+    </script>
+    <style>
+        #pdfViewer { width: 600px; height: 800px; border: 1px solid #ddd; }
+        #controls { margin-top: 10px; }
+    </style>
+</head>
+<body>
+    <div id="pdfViewer"></div>
+    <div id="controls">
+        <button id="prevPage" disabled>Previous Page</button>
+        <button id="nextPage" disabled>Next Page</button>
+        <span>Page: <span id="pageNumber">1</span></span>
+    </div>
+
+    <script src="viewer.js"></script>  <!-- Viewer logic -->
+    
+</body>
+</html>
