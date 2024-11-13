@@ -13,7 +13,6 @@ This project follows a client-server architecture:
 - **Backend**: Node.js with Socket.IO for real-time communication.
 - **Frontend**: HTML, CSS, and PDF.js to render the PDF viewer.
 
-See [docs/architecture.md](docs/architecture.md) for more details.
 
 ## Setup and Usage
 
@@ -24,4 +23,4 @@ See [docs/architecture.md](docs/architecture.md) for more details.
 ### Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/Eshanee05/Kalvium task.git
+   git clone https://github.com/Eshanee05/Kalvium-task-21BAI10265.git
