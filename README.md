@@ -24,4 +24,4 @@ See [docs/architecture.md](docs/architecture.md) for more details.
 ### Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/Eshanee05/pdf-co-viewer.git
+   git clone https://github.com/Eshanee05/Kalvium task.git
